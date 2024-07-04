@@ -78,14 +78,17 @@ export default function Header(){
                             />
                         </Link>
 
-                        <div className="lg:flex hidden lg:visible flex-col">
-                            <h3 className={`montserrat.className
-                                text-[21px] font-normal text-white/75`}>
-                                Desenvolvimento de
-                            </h3>
-                            <h2 className={`montserrat.className
-                                text-[21px] font-semibold text-white/85`}>Sites e Soluções Digitais</h2>
-                        </div>
+                        <Link href='/'>
+                            <div className="lg:flex hidden lg:visible flex-col">
+                                <h3 className={`montserrat.className
+                                    text-[21px] font-normal 
+                                    text-white/75`}>
+                                    Desenvolvimento de
+                                </h3>
+                                <h2 className={`montserrat.className
+                                    text-[21px] font-semibold text-white/85`}>Sites e Soluções Digitais</h2>
+                            </div>
+                        </Link>
                     </div>
                         
                     <div className="flex gap-14">
