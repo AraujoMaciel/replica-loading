@@ -25,8 +25,8 @@ export default function Header(){
                 <div>
                     <Link href='/'>
                         <Image 
-                            src="/loading-removebg.png"
-                            width={150}
+                            src="/logo.svg"
+                            width={100}
                             height={50}
                             alt="logo loading"
                         />
@@ -67,25 +67,25 @@ export default function Header(){
                 `}>
                 <div className="flex items-center gap-4 justify-between flex-1">
 
-                    <div className="flex gap-4 items-center">
+                    <div className="flex gap-2 items-center">
                         <Link href='/'>
                             <Image 
-                                src="/loading-removebg.png"
-                                width={150}
+                                src="/logo.svg"
+                                width={100}
                                 height={50}
                                 alt="logo loading"
-                                className="lg:border-r-2 lg:border-white"
+                                className="mr-2"
                             />
                         </Link>
 
                         <Link href='/'>
-                            <div className="lg:flex hidden lg:visible flex-col">
-                                <h3 className={`montserrat.className
+                            <div className="lg:flex hidden lg:visible flex-col lg:border-l-2 lg:border-white px-3">
+                                <h3 className={`${montserrat.className}
                                     text-[21px] font-normal 
                                     text-white/75`}>
                                     Desenvolvimento de
                                 </h3>
-                                <h2 className={`montserrat.className
+                                <h2 className={`${montserrat.className}
                                     text-[21px] font-semibold text-white/85`}>Sites e Soluções Digitais</h2>
                             </div>
                         </Link>

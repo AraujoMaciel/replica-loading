@@ -17,6 +17,7 @@ const config: Config = {
         'roxo':'#673bb7',
         'roxo2':'#442779',
         'ciano':'#14cebe',
+        'lilas':'#8F52FF',
       }
     },
   },
