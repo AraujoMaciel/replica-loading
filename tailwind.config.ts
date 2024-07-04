@@ -16,6 +16,7 @@ const config: Config = {
       colors:{
         'roxo':'#673bb7',
         'roxo2':'#442779',
+        'ciano':'#14cebe',
       }
     },
   },
