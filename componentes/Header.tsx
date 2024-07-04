@@ -39,7 +39,7 @@ export default function Header(){
                     className="text-2xl hover:cursor-pointer"/>
                 </div>
                 
-                <div className={`w-64 sm:w-80 h-[100%] bg-roxo absolute right-0 bottom-0 ${menu?'visible':'hidden'}`}>
+                <div className={`w-64 sm:w-80 h-[100%] bg-roxo absolute right-0 bottom-0 ${menu?'visible':'hidden'} z-50`}>
                     <div className="p-7 text-3xl flex justify-end hover:cursor-pointer">
                         <IoIosCloseCircle onClick={() => {setMenu(!menu)}}/>
                     </div>
