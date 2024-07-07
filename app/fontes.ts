@@ -1,7 +1,7 @@
 import {Montserrat, Roboto} from "next/font/google";
 
 export const montserrat = Montserrat({
-    weight:["200","300","400"], 
+    weight:["200","300","400","500"], 
     subsets:["latin"]
 });
 
