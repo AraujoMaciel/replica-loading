@@ -5,6 +5,7 @@ import BannerTopo from "@/componentes/bannerTopo";
 import BlocoTexto from "@/componentes/blocoTexto";
 import Container from "@/componentes/container";
 import FaixaSecao from "@/componentes/faixaSecao";
+import ContainerInfo from "@/componentes/containerInfo";
 
 export default function Home() {
   return (
@@ -29,6 +30,7 @@ export default function Home() {
         alt="Imagem Loading"
       />
       <FaixaSecao />
+      <ContainerInfo />
       <Footer />
     </div>
   );
