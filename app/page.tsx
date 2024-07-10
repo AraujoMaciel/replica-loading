@@ -6,6 +6,8 @@ import BlocoTexto from "@/componentes/blocoTexto";
 import Container from "@/componentes/container";
 import FaixaSecao from "@/componentes/faixaSecao";
 import ContainerInfo from "@/componentes/containerInfo";
+import ContainerParceiro from "@/componentes/containerParceiro";
+import ContainerServicos from "@/componentes/containerServicos";
 
 export default function Home() {
   return (
@@ -31,6 +33,8 @@ export default function Home() {
       />
       <FaixaSecao />
       <ContainerInfo />
+      <ContainerParceiro />
+      <ContainerServicos />
       <Footer />
     </div>
   );
