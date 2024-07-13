@@ -1,8 +1,8 @@
 import type { Metadata } from "next";
-import { Inter } from "next/font/google";
+import { montserrat } from "./fontes";
+import Header from "@/componentes/Header";
+import Footer from "@/componentes/Footer";
 import "./globals.css";
-
-const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
   title: "Réplica Loading",
@@ -16,7 +16,11 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="pt-br">
-      <body className={inter.className}>{children}</body>
+      <body className={montserrat.className}>
+        <Header />
+        {children}
+        <Footer />
+      </body>
     </html>
   );
 }

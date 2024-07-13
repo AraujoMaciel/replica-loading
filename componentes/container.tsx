@@ -1,6 +1,5 @@
-import { montserrat } from "@/app/fontes"
-import Image from "next/image"
-import Link from "next/link"
+import Image from "next/image";
+import BotaoInterno from "./botaoInterno";
 
 interface propsContainer{
     titulo:String,
@@ -9,16 +8,22 @@ interface propsContainer{
     imagem: String,
     alt: String,
     enderecoLink: String,
+    inversorCol?:String,
+    inversorRow?:String,
 }
 
-export default function Container(props: propsContainer){
+export default function Container(props: propsContainer){  
+
     return(
-        <div className={`${montserrat.className}`}>
-            <div className="lg:flex lg:px-14 xl:w-10/12 xl:mx-auto">
-                <div className="flex items-start gap-8 flex-col px-10 md:w-3/4 lg:w-8/12 lg:py-12 md:mx-auto xl:w-3/5">
+        <div className={`bg-slate-400 mb-7`}>
+            <div className={`md:flex md:flex-col md:${props.inversorCol} xl:${props.inversorRow} xl:flex-row bg-slate-500 w-full sm:w-4/5 mx-auto`}>
+                <div className="flex items-start gap-8 flex-col px-10 w-full">
                     <h1 className="font-extrabold text-xl text-roxo md:text-2xl lg:text-5xl">{props.titulo}</h1>
-                    <p className="font-medium text-sm md:text-lg lg:text-2xl">{props.texto}</p>
-                    <button className="bg-roxo rounded-md text-white text-sm px-4 py-2 hover:bg-roxo2 md:text-lg lg:text-xl"><Link href={`${props.enderecoLink}`}>{props.textoButton}</Link></button>
+                    <p className="font-medium text-sm lg:text-lg xl:text-xl">{props.texto}</p>
+                    <BotaoInterno
+                        linkBotao={props.enderecoLink}
+                        nomeBotao={props.textoButton}
+                    />
                 </div>
                 <div className="w-3/4 mx-auto py-8 lg:w-3/5 lg:pt-24">
                     <Image 

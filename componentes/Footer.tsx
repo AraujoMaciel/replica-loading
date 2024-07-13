@@ -1,12 +1,11 @@
 import Image from "next/image"
-import { montserrat } from "@/app/fontes"
 import {BiLogoGmail} from "react-icons/bi"
 import { TiSocialLinkedin } from "react-icons/ti"
 import { IoLogoInstagram } from "react-icons/io"
 
 export default function Footer(){
     return(
-        <div className={`bg-lilas text-white p-4 ${montserrat.className} bottom-0 w-full -z-50`}>
+        <div className={`bg-lilas text-white p-4 bottom-0 w-full -z-50`}>
             <div className="flex flex-col items-center gap-7 py-4 md:grid md:grid-cols-2 md:px-14 md:gap-x-3  lg:grid-cols-3 lg:pr-4">
                 <div >
                     <Image 

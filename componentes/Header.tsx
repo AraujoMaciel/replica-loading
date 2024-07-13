@@ -1,7 +1,6 @@
 'use client'
 
 import Image from "next/image"
-import { montserrat } from "@/app/fontes"
 import { HiOutlineMenuAlt3 } from "react-icons/hi";
 import { IoIosCloseCircle } from "react-icons/io";
 import {BiLogoGmail} from "react-icons/bi"
@@ -80,13 +79,11 @@ export default function Header(){
 
                         <Link href='/'>
                             <div className="lg:flex hidden lg:visible flex-col lg:border-l-2 lg:border-white px-3">
-                                <h3 className={`${montserrat.className}
-                                    text-[21px] font-normal 
+                                <h3 className={`text-[21px] font-normal 
                                     text-white/75`}>
                                     Desenvolvimento de
                                 </h3>
-                                <h2 className={`${montserrat.className}
-                                    text-[21px] font-semibold text-white/85`}>Sites e Soluções Digitais</h2>
+                                <h2 className={`text-[21px] font-semibold text-white/85`}>Sites e Soluções Digitais</h2>
                             </div>
                         </Link>
                     </div>

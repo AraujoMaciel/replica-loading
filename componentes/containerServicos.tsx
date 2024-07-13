@@ -1,12 +1,10 @@
-import Image from "next/image"
-import Link from "next/link"
-import { montserrat } from "@/app/fontes"
+import Image from "next/image";
+import BotaoExterno from "./botaoExterno";
 
 export default function ContainerParceiro(){
     return(
         <div>
-            <div 
-                className="lg:flex lg:px-14 xl:w-10/12         xl:mx-auto md:flex md:flex-col">
+            <div className="lg:flex lg:px-14 xl:w-10/12 xl:mx-auto md:flex md:flex-col">
                 
                 <div className="w-3/4 mx-auto py-8 lg:w-3/5 lg:pt-24 hidden sm:flex sm:visible">
                     <Image 
@@ -39,7 +37,10 @@ export default function ContainerParceiro(){
 
                         <h3 className="flex gap-2 items-start font-medium text-sm sm:text-lg md:text-2xl xl:text-5xl xl:gap-7"><span className="bg-roxo rounded-full p-4 sm:p-6 xl:p-7 w-8 h-8 sm:w-10 sm:h-10 md:w-12 md:h-12 lg:w-16 lg:h-16 xl:w-20 xl:h-20 text-white text-center flex justify-center items-center">✓</span> Soluções inovadoras</h3>
 
-                        <button className="bg-roxo rounded-md text-white text-sm px-4 py-2 my-7 lg:my-24 hover:bg-roxo2 md:text-lg lg:text-2xl lg:px-10 lg:py-7 xl:px-16 xl:py-12 xl:text-4xl"><a href="https://api.whatsapp.com/send/?phone=558888443764&text=Ol%C3%A1%21+Vim+pelo+site%2C+gostaria+de+pedir+um+or%C3%A7amento%21&type=phone_number&app_absent=0" target="_blanck">QUERO IMPULSIONAR MEU NEGÓCIO</a></button> 
+                        <BotaoExterno
+                        link="https://api.whatsapp.com/send/?phone=558888443764&text=Ol%C3%A1%21+Vim+pelo+site%2C+gostaria+de+pedir+um+or%C3%A7amento%21&type=phone_number&app_absent=0"
+                        nome="QUERO IMPULSIONAR MEU NEGÓCIO"
+                        /> 
                     </div>
                 </div> 
             </div>
