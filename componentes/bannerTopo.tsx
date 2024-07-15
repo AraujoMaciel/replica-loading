@@ -12,19 +12,19 @@ export default function BannerTopo(props: propsBannerTopo){
         <div>
             <div className="bg-roxo h-full w-full">
                 <div className="relative">
-                    <div className="flex justify-center items-center py-24 w-11/12 mr-0 ml-auto sm:full">
+                    <div className="flex justify-center items-center py-24 md:w-8/12 ml-auto sm:full">
                         <Image 
                             src={`/${props.imagem}`}
-                            width={1500}
-                            height={1500}
+                            width={1200}
+                            height={1200}
                             alt="Banner Topo"
                             className=""
                         />
                     </div>
                     <div className={`bg-lilas/50 sm:bg-transparent w-full h-full text-white absolute top-0 p-6 sm:p-8`}>
-                        <div className="w-3/4 pt-12 md:pl-10 md:pt-10 md:w-4/5 sm:flex justify-center items-left flex-col sm:mt-24 lg:pt-24 lg:pl-20 xl:pt-48 xl:w-5/12 xl:pl-20">
-                            <p className="pt-10 font-medium text-lg sm:text-2xl sm:mb-5 lg:text-4xl">{props.subtitulo}</p>
-                            <h1 className="text-2xl pt-5 sm:text-5xl lg:text-7xl">{props.titulo}</h1>
+                        <div className="h-full w-3/4 md:w-3/5 sm:flex justify-center items-left flex-col md:p-7  lg:pt-16 xl:pt-32 xl:w-4/12 xl:pl-20">
+                            <p className="py-10 font-medium text-lg sm:text-xl lg:text-2xl">{props.subtitulo}</p>
+                            <h1 className="font-bold text-xl sm:text-2xl lg:text-4xl">{props.titulo}</h1>
                         </div>
                     </div>
                 </div>
