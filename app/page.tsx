@@ -10,7 +10,11 @@ import ContainerServicos from "@/componentes/containerServicos";
 export default function Home() {
   return (
     <div>
-      <BannerTopo />
+      <BannerTopo
+        imagem="banner-home.svg"
+        subtitulo="Transformando ideias em realidade digital"
+        titulo={`Constuindo um futuro com criatividade e inovação`}
+      />
       <Section>
         <BlocoTexto />
         <Container 
