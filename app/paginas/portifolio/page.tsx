@@ -16,7 +16,7 @@ export default function Portifolio(){
                     titulo="Acaraú Valley"
                     texto="A Acarau Valley é uma empresa que desempenha um papel crucial no ecossistema de startups, oferecendo suporte e recursos para empreendedores que estão no estágio inicial de desenvolvimento de seus negócios."
                     textoButton="CONHEÇA O SITE"
-                    enderecoLink="/"
+                    enderecoLink="/paginas/portifolio"
                 />
             </Section>
             <ContainerImagem
