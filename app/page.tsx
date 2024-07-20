@@ -6,6 +6,7 @@ import FaixaSecao from "@/componentes/faixaSecao";
 import ContainerInfo from "@/componentes/containerInfo";
 import ContainerParceiro from "@/componentes/containerParceiro";
 import ContainerServicos from "@/componentes/containerServicos";
+import ContainerVisao from "@/componentes/containerVisao";
 
 export default function Home() {
   return (
@@ -16,7 +17,12 @@ export default function Home() {
         titulo={`Constuindo um futuro com criatividade e inovação`}
       />
       <Section>
-        <BlocoTexto />
+        <BlocoTexto
+          sinal="+"
+          subtitulo="Dos nossos"
+          titulo="SERVIÇOS"
+          texto="Tenha a disposição o melhor que a empresa jr da nova economia tem a oferecer ao seu negócio"
+        />
         <Container 
           titulo="SITES E APLICATIVOS"
           texto="A Loading te ajuda a reinventar seu negócio através de sites, sistemas, de modo a resolver os problemas que estão atrapalhando seu negócio. Tornamos seu sonho em realidade com as melhores soluções de maneira personalizada para impulsionar seu negócio."

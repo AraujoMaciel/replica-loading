@@ -1,12 +1,10 @@
-import Image from "next/image";
+
 import BotaoInterno from "./botaoInterno";
 
 interface propsContainer{
     titulo:String,
     texto: String,
     textoButton: String,
-    imagem?: String,
-    alt?: String,
     enderecoLink: String,
     inversorCol?:String,
     inversorRow?:String,

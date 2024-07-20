@@ -1,13 +1,12 @@
 'use client'
 
 import Image from "next/image"
-import { HiOutlineMenuAlt3 } from "react-icons/hi";
-import { IoIosCloseCircle } from "react-icons/io";
 import {BiLogoGmail} from "react-icons/bi"
 import { TiSocialLinkedin } from "react-icons/ti";
 import { IoLogoInstagram } from "react-icons/io";
 import Link from "next/link";
 import { useState } from "react";
+import UiSheet from "./uiSheet";
 
 export default function Header(){
 
@@ -33,28 +32,9 @@ export default function Header(){
                 </div>
 
                 <div className="sm:hidden">
-                    <HiOutlineMenuAlt3 
-                    onClick={() => {setMenu(!menu)}}
-                    className="text-2xl hover:cursor-pointer"/>
+                    <UiSheet />
                 </div>
-                
-                <div className={`w-64 sm:w-80 h-[100%] bg-roxo absolute right-0 bottom-0 ${menu?'visible':'hidden'} z-50`}>
-                    <div className="p-7 text-3xl flex justify-end hover:cursor-pointer">
-                        <IoIosCloseCircle onClick={() => {setMenu(!menu)}}/>
-                    </div>
-                    <div className="flex flex-col justify-center items-end p-7 gap-3 text-lg">
-                            <Link href='/paginas/sobre' onClick={() => {setMenu(!menu)}}>Sobre a Loading</Link>
-                            <Link href='/paginas/portifolio' onClick={() => {setMenu(!menu)}}>Portifólio</Link>
-                    </div>
-                    <div className="absolute w-full py-5 bottom-0">
-                        <div className="flex gap-4 justify-center items-center text-3xl">
-                            <a href="https://br.linkedin.com/company/loading-junior"><TiSocialLinkedin /></a>
-                            <a href="https://www.instagram.com/loadingjr/"><IoLogoInstagram /></a>
-                            <a href="mailto:oi.loadingjr@gmail.com"><BiLogoGmail /></a>
-                        </div>
-                    </div>
-                    
-                </div>            
+                           
             </div>
 
             {
