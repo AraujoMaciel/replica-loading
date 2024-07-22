@@ -6,6 +6,7 @@ import ContainerVisao from "@/componentes/containerVisao";
 import ContainerValores from "@/componentes/containerValores";
 import ContainerNet from "@/componentes/containerNet";
 import ContainerTutor from "@/componentes/containerTutor";
+import UiCarrossel from "@/componentes/uiCarrossel";
 
 
 export default function Sobre(){
@@ -22,6 +23,7 @@ export default function Sobre(){
                     subtitulo="SOBRE O"
                     titulo="TIME LOADING"
                 />
+                <UiCarrossel />
                 <div className="w-3/12 max-w-96 mx-auto">
                     <Image
                         src="/logoCor.svg"

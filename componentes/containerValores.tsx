@@ -20,7 +20,7 @@ export default function ContainerValores(){
                         <h3 className="flex gap-2 items-center font-medium text-sm md:text-lg xl:text-xl"><span className="bg-roxo rounded-full p-4 w-5 h-5 md:w-6 md:h-6 lg:w-7 lg:h-7 xl:w-8 xl:h-8 text-white flex justify-center items-center">✓</span>Responsabilidade pelas soluções desenvolvidas</h3>
                     </div>
                 </div>
-                <div className="w-3/4 mx-auto py-8 lg:w-3/5 lg:pt-24">
+                <div className="w-3/4 mx-auto py-7 lg:w-3/5">
                     <Image 
                         src="/sobreValores.svg"
                         width={700}

@@ -9,7 +9,7 @@ export default function ContainerVisao(){
                     <h1 className="font-extrabold text-2xl text-roxo md:text-3xl lg:text-6xl w-full">Visão</h1>
                     <p className="font-medium text-sm lg:text-lg xl:text-xl">Ser uma empresa de referência em desenvolvimento de soluções digitais na cidade  de Sobral-CE e dentro do Campus da UFC de Sobral.</p>
                 </div>
-                <div className="w-3/4 mx-auto py-8 lg:w-3/5 lg:pt-24">
+                <div className="w-3/4 mx-auto py-7 lg:w-3/5 ">
                     <Image 
                         src="/sobreVisao.svg"
                         width={700}
