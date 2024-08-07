@@ -15,8 +15,8 @@ export default function BannerTopo(props: propsBannerTopo){
                     <div className="flex justify-center items-center py-24 md:w-8/12 ml-auto sm:full">
                         <Image 
                             src={`/${props.imagem}`}
-                            width={1200}
-                            height={1200}
+                            width={1000}
+                            height={1000}
                             alt="Banner Topo"
                             className=""
                         />

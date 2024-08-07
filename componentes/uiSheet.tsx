@@ -28,6 +28,7 @@ export default function UiSheet(){
       <SheetTrigger onClick={()=>{setMenu(true)}}>
         <HiOutlineMenuAlt3 
           className="text-2xl hover:cursor-pointer"
+          attributeName="botao menu"
         />
       </SheetTrigger>
       <SheetContent className={`bg-roxo text-white border-none pt-20 ${menu?'visible':'hidden'}`}>
