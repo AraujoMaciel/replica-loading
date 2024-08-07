@@ -4,6 +4,7 @@ import Image from "next/image"
 import {BiLogoGmail} from "react-icons/bi"
 import { TiSocialLinkedin } from "react-icons/ti";
 import { IoLogoInstagram } from "react-icons/io";
+import { TiSocialFacebookCircular } from "react-icons/ti";
 import Link from "next/link";
 import { useState } from "react";
 import UiSheet from "./uiSheet";
@@ -78,6 +79,7 @@ export default function Header(){
                         <div className="flex justify-center items-center gap-4 text-3xl">
                             <a href="https://br.linkedin.com/company/loading-junior"><TiSocialLinkedin /></a>
                             <a href="https://www.instagram.com/loadingjr/"><IoLogoInstagram /></a>
+                            <a href="https://www.facebook.com/loadingjr/"><TiSocialFacebookCircular /></a>
                             <a href="mailto:oi.loadingjr@gmail.com"><BiLogoGmail /></a>
                         </div>
                         

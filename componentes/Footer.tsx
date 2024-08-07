@@ -1,7 +1,8 @@
-import Image from "next/image"
-import {BiLogoGmail} from "react-icons/bi"
-import { TiSocialLinkedin } from "react-icons/ti"
-import { IoLogoInstagram } from "react-icons/io"
+import Image from "next/image";
+import {BiLogoGmail} from "react-icons/bi";
+import { TiSocialLinkedin } from "react-icons/ti";
+import { TiSocialFacebookCircular } from "react-icons/ti";
+import { IoLogoInstagram } from "react-icons/io";
 
 export default function Footer(){
     return(
@@ -25,6 +26,7 @@ export default function Footer(){
                 <div className="flex gap-4 justify-center items-center text-3xl">
                     <a href="https://br.linkedin.com/company/loading-junior"><TiSocialLinkedin /></a>
                     <a href="https://www.instagram.com/loadingjr/"><IoLogoInstagram /></a>
+                    <a href="https://www.facebook.com/loadingjr/"><TiSocialFacebookCircular /></a>
                     <a href="mailto:oi.loadingjr@gmail.com"><BiLogoGmail /></a>
                 </div>
 
