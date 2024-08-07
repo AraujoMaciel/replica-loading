@@ -12,7 +12,7 @@ export default function BannerTopo(props: propsBannerTopo){
         <div>
             <div className="bg-roxo h-full w-full">
                 <div className="relative">
-                    <div className="flex justify-center items-center py-24 md:w-8/12 ml-auto sm:full">
+                    <div className="flex justify-center items-center py-24 md:w-2/3 ml-auto sm:full">
                         <Image 
                             src={`/${props.imagem}`}
                             width={1000}

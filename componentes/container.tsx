@@ -16,7 +16,7 @@ export default function Container(props: propsContainer){
 
     return(
         <div className={` mb-7`}>
-            <div className={`md:flex md:flex-col md:${props.inversorCol} xl:${props.inversorRow} xl:flex-row w-full sm:w-4/5 mx-auto`}>
+            <div className={`md:flex md:${props.inversorCol} xl:${props.inversorRow} w-full sm:w-4/5 mx-auto`}>
                 <div className="flex items-start gap-8 flex-col px-10 w-full">
                     <h2 className="font-extrabold text-xl text-roxo md:text-2xl lg:text-5xl">{props.titulo}</h2>
                     <p className="font-medium text-sm lg:text-lg xl:text-xl">{props.texto}</p>

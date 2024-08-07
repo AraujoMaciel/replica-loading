@@ -39,7 +39,7 @@ export default function ContainerInfo(){
             </div>
 
             <div className="sm:w-4/5 mx-auto text-center flex flex-col gap-4 py-4 sm:text-lg lg:text-xl xl:text-2xl xl:gap-7 xl:font-medium">
-                <h4>Ajudamos você a <span className="text-roxo font-medium lg:font-semibold">reduzir custos e digitalizar seu negócio</span> com o melhor em sites, aplicativos e marketing <span>personalizados</span>.</h4>
+                <h4>Ajudamos você a <span className="text-roxo font-medium lg:font-semibold">reduzir custos e digitalizar seu negócio</span> com o melhor em sites, aplicativos e marketing <span className="text-roxo font-medium lg:font-semibold">personalizados</span>.</h4>
 
                 <BotaoExterno
                     link="https://api.whatsapp.com/send/?phone=558888443764&text=Ol%C3%A1%21+Vim+pelo+site%2C+gostaria+de+pedir+um+or%C3%A7amento%21&type=phone_number&app_absent=0"

@@ -30,6 +30,8 @@ export default function Home() {
           enderecoLink="/paginas/sobre"
           imagem="/image1.svg"
           alt="Logotipo"
+          inversorCol="flex-col"
+          inversorRow="flex-row"
         />
         <Container
           inversorCol="flex-col-reverse"
