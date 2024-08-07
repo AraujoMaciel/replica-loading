@@ -6,7 +6,7 @@ export default function ContainerValores(){
         <div className={` mb-2`}>
             <div className={`flex flex-col md:flex-row-reverse md:items-center w-full sm:w-4/5 mx-auto`}>
                 <div className="flex items-start gap-8 flex-col px-10 w-full md:text-left">
-                    <h1 className="font-extrabold text-2xl text-roxo md:text-3xl lg:text-6xl w-full  text-center md:text-left">Valores</h1>
+                    <h2 className="font-extrabold text-2xl text-roxo md:text-3xl lg:text-6xl w-full  text-center md:text-left">Valores</h2>
                     <div className="flex flex-col gap-2 xl:px-2 xl:gap-5">   
                      
                         <h3 className="flex gap-2 items-center font-medium text-sm md:text-lg xl:text-xl"><span className="bg-roxo rounded-full p-4 w-5 h-5 md:w-6 md:h-6 lg:w-7 lg:h-7 xl:w-8 xl:h-8 text-white flex justify-center items-center">✓</span>Paixão pelo que fazemos</h3>

@@ -18,8 +18,8 @@ export default function ContainerParceiro(){
 
                     <div className="lg:w-1/2">
                     <div className="flex items-center gap-2 my-4 flex-col px-10 md:w-3/4 lg:w-full lg:py-4 md:mx-auto mx-auto text-center">
-                        <h1 className="font-semibold text-xl md:text-2xl lg:text-4xl"><span className="text-roxo font-bold">+</span> SERVIÇOS</h1>
-                        <h1 className="font-extrabold text-2xl text-roxo md:text-3xl lg:text-5xl">INCLUÍDOS</h1>
+                        <h2 className="font-semibold text-xl md:text-2xl lg:text-4xl"><span className="text-roxo font-bold">+</span> SERVIÇOS</h2>
+                        <h2 className="font-extrabold text-2xl text-roxo md:text-3xl lg:text-5xl">INCLUÍDOS</h2>
                         <p className="font-medium text-sm lg:text-lg xl:text-xl">Veja o que você terá no acompanhamento do seu projeto</p>   
                     </div>
 

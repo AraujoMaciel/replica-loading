@@ -207,7 +207,7 @@ import { IoLogoInstagram } from "react-icons/io"
                             alt="Membro da Loading"
                         />
                         <div className="pt-4">
-                            <h1 className="font-bold text-lg">{dados.nome}</h1>
+                            <h2 className="font-bold text-lg">{dados.nome}</h2>
                             <h3 className="text-roxo font-semibold text-sm px-2">{dados.cargo}</h3>
                         </div>
                         <div className="py-4 flex items-center justify-center text-xl gap-5 text-white">

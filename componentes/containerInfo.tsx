@@ -9,8 +9,8 @@ export default function ContainerInfo(){
             <div className=" mx-auto sm:w-4/5 lg:w-2/3">
                 <div className="flex gap-4 p-4 sm:w-4/5 justify-center mx-auto">
                     <div className="flex flex-col justify-center items-center text-center sm:w-3/4 lg:text-2xl xl:text-4xl">
-                        <h1 className="font-medium sm:text-sm lg:text-lg xl:text-3xl">COMO FUNCIONA NOSSO</h1>
-                        <h1 className="font-extrabold text-roxo text-lg lg:text-xl xl:text-4xl">ATENDIMENTO</h1>
+                        <h2 className="font-medium sm:text-sm lg:text-lg xl:text-3xl">COMO FUNCIONA NOSSO</h2>
+                        <h2 className="font-extrabold text-roxo text-lg lg:text-xl xl:text-4xl">ATENDIMENTO</h2>
                         <p className="font-normal text-[12px] lg:text-lg xl:text-xl">Você NÃO PAGA pelo atendimento :&#x00029;</p>
                     </div>
                     <div className="w-6 sm:w-7 lg:w-10 xl:w-12">

@@ -15,7 +15,7 @@ export default function ContainerTutor(){
                         />
                 </div>
                 <div className="w-full mx-auto">
-                    <h1 className="font-extrabold text-2xl text-roxo md:text-3xl lg:text-4xl w-full text-center mb-4">Professor Tutor</h1>
+                    <h2 className="font-extrabold text-2xl text-roxo md:text-3xl lg:text-4xl w-full text-center mb-4">Professor Tutor</h2>
 
                     <div className="bg-gray-300 rounded-lg p-5 text-xs sm:text-sm lg:text-lg relative">  
                         <p className="px-2 md:px-4"><ImQuotesLeft className="absolute top-4 left-2"/>Tive a honra de acompanhar a criação e o desenvolvimento da Loading Jr, e é uma honra fazer a tutoria de um grupo tão autossuficiente e engajado. Cada nova gestão da EJ traz novas contribuições e seus membros se apresentam com autonomia, craitividade e quilíbrio social e financeiro. Anseio contribuir por muito mais tempo com este time.<ImQuotesRight className="absolute right-2 bottom-4"/></p> 

@@ -16,15 +16,15 @@ export default function FaixaSecao(){
              text-center z-10 relative p-4">
                 <div className="max-w-7xl mx-auto flex flex-col gap-5 lg:gap-8 xl:gap-14 justify-center items-center sm:flex-row w-full xl:py-8 px-2">
                     <div className="">
-                        <h1 className="font-bold text-lg mb-2 xl:mb-4 md:text-xl lg:text-2xl xl:text-3xl">+ de 5 anos</h1>
+                        <h2 className="font-bold text-lg mb-2 xl:mb-4 md:text-xl lg:text-2xl xl:text-3xl">+ de 5 anos</h2>
                         <p className="text-sm lg:text-lg">de <strong>experiência em mercado</strong> entregando soluções digitais para dentro e fora da região Sobralense.</p>
                     </div>
                     <div className="">
-                        <h1 className="font-bold text-lg mb-2 xl:mb-4 md:text-xl lg:text-2xl xl:text-3xl">+ de 4 serviços</h1>
+                        <h2 className="font-bold text-lg mb-2 xl:mb-4 md:text-xl lg:text-2xl xl:text-3xl">+ de 4 serviços</h2>
                         <p className="text-sm lg:text-lg">entregues para você durante seu atendimento. Dentre eles estão: <strong>marketing, vendas, desenvolvimento ágil, atendimento personalizado,</strong> entre outros.</p>
                     </div>
                     <div className="">
-                        <h1 className="font-bold text-lg mb-2 xl:mb-4 md:text-xl lg:text-2xl xl:text-3xl">+ de 99</h1>
+                        <h2 className="font-bold text-lg mb-2 xl:mb-4 md:text-xl lg:text-2xl xl:text-3xl">+ de 99</h2>
                         <p className="text-sm lg:text-lg">cafés tomados durante o <strong>desenvolvimento da solução do seu negócio.</strong></p>
                     </div>
                 </div>
