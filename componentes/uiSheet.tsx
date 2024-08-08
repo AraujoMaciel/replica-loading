@@ -38,6 +38,8 @@ export default function UiSheet(){
               <a onClick={()=>{setMenu(false)}} href="/paginas/sobre">Sobre a Loading</a>
             
               <a onClick={()=>{setMenu(false)}} href="/paginas/portifolio">Portifólio</a>
+
+              <a onClick={()=>{setMenu(false)}} href="/paginas/links">Canais</a>
             
           </SheetTitle>
           <SheetDescription className="absolute bottom-4 w-full left-0">

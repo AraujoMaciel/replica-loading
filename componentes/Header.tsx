@@ -69,11 +69,12 @@ export default function Header(){
                         </Link>
                     </div>
                         
-                    <div className="flex gap-14">
+                    <div className="flex gap-10">
 
                         <ul className={`flex gap-10 montserrat.className font-bold text-[18px]`}>
-                            <li className="hover:cursor-pointer hover:text-ciano"><Link href='/paginas/sobre'>Sobre a Loading</Link></li>
+                            <li className="hover:cursor-pointer hover:text-ciano"><Link href='/paginas/sobre'>Sobre</Link></li>
                             <li className="hover:cursor-pointer hover:text-ciano"><Link href='/paginas/portifolio'>Portifólio</Link></li>
+                            <li className="hover:cursor-pointer hover:text-ciano"><Link href='/paginas/links'>Canais</Link></li>
                         </ul>
 
                         <div className="flex justify-center items-center gap-4 text-3xl">
