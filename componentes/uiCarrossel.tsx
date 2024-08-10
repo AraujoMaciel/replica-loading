@@ -161,7 +161,7 @@ import { IoLogoInstagram } from "react-icons/io"
             id:19,
             imagem: "/membros/Bianka.svg",
             nome: "Bianka",
-            cargo: "Acessora de Recursos Humanos",
+            cargo: "Acessora de RH",
             linkedin: "https://www.linkedin.com/in/bianka-aparecida-de-carvalho-11507226a/?originalSubdomain=br",
             instagram: "https://www.instagram.com/"
         },
@@ -195,22 +195,22 @@ import { IoLogoInstagram } from "react-icons/io"
         <Carousel opts={{
             align: "start",
           }}>
-        <CarouselContent className="mb-5 ">
+        <CarouselContent className="mb-10 lg:mb-14">
             
             {membros.map((dados) => (
                 <CarouselItem key={dados.id}>
-                    <div className="bg-slate-200 rounded-xl w-44 lg:w-60 xl:w-72 text-center mx-auto md:mx-1  mb-7 shadow-md">
+                    <div className="bg-slate-200 rounded-xl w-44 sm:w-48 lg:w-52 xl:w-60 text-center mx-auto md:mx-1 shadow-slate-300 shadow-inner transition-all duration-500 border-b-4 border-slate-300 hover:border-b-2 hover:shadow-slate-400">
                         <Image
                             src={dados.imagem}
                             width={300}
                             height={300}
                             alt="Membro da Loading"
                         />
-                        <div className="pt-4">
+                        <div className="pt-7">
                             <h2 className="font-bold text-lg">{dados.nome}</h2>
-                            <h3 className="text-roxo font-semibold text-sm px-2">{dados.cargo}</h3>
+                            <h3 className="text-roxo font-semibold text-xs lg:text-sm px-3 h-5">{dados.cargo}</h3>
                         </div>
-                        <div className="py-4 flex items-center justify-center text-xl gap-5 text-white">
+                        <div className="py-7 flex items-center justify-center text-xl gap-5 text-white">
                             <a href={dados.linkedin} target="_blank"><TiSocialLinkedin className="bg-roxo rounded-full w-7 h-7 p-1"/></a>
                             <a href={dados.instagram} target="_blank"><IoLogoInstagram className="bg-roxo rounded-full w-7 h-7 p-1"/></a>
                         </div>

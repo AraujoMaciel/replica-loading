@@ -18,11 +18,12 @@ export default function Sobre(){
                 titulo="#Vemserloading"
             />
             <Section>
-                <BlocoTexto
-                    sinal="+"
-                    subtitulo="SOBRE O"
-                    titulo="TIME LOADING"
-                />
+                <div className={`w-full p-5 sm:p-10 md:p-16 lg:w-4/5 mx-auto`}>
+                    <div className="flex justify-center items-center flex-col py-2 text-center">
+                        <h2 className="font-medium text-lg sm:text-xl md:text-lg lg:text-2xl xl:text-3xl"><span className="text-roxo sm:font-bold">+ </span>SOBRE O</h2>
+                        <h2 className="text-roxo font-extrabold text-xl sm:text-2xl md:text-3xl lg:text-4xl xl:text-5xl">TIME LOADING</h2>
+                    </div>
+                </div>
                 <UiCarrossel />
                 <div className="w-3/12 max-w-96 mx-auto">
                     <Image

@@ -1,7 +1,5 @@
 import type { Metadata } from "next";
-import { montserrat } from "./fontes";
-import Header from "@/componentes/Header";
-import Footer from "@/componentes/Footer";
+import { montserrat } from "@/app/fontes";
 import "./globals.css";
 
 export const metadata: Metadata = {
@@ -18,9 +16,9 @@ export default function RootLayout({
   return (
     <html lang="pt-br">
       <body className={montserrat.className}>
-        <Header />
+        
         {children}
-        <Footer />
+        
       </body>
     </html>
   );

@@ -35,11 +35,11 @@ export default function UiSheet(){
         <SheetHeader className={`${montserrat.className} font-medium`}>
           <SheetTitle className="flex flex-col gap-7 text-white">
 
-              <a onClick={()=>{setMenu(false)}} href="/paginas/sobre">Sobre a Loading</a>
+              <a onClick={()=>{setMenu(false)}} href="/sobre">Sobre a Loading</a>
             
-              <a onClick={()=>{setMenu(false)}} href="/paginas/portifolio">Portifólio</a>
+              <a onClick={()=>{setMenu(false)}} href="/portifolio">Portifólio</a>
 
-              <a onClick={()=>{setMenu(false)}} href="/paginas/links">Canais</a>
+              <a onClick={()=>{setMenu(false)}} href="/links">Canais</a>
             
           </SheetTitle>
           <SheetDescription className="absolute bottom-4 w-full left-0">

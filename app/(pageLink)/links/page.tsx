@@ -1,15 +1,15 @@
 import Image from "next/image";
 import { montserrat, roboto } from "@/app/fontes";
-import CardLink from "./cardLink";
-import ContainerNet from "./containerNet";
-import BlocoTexto from "./blocoTexto";
+import CardLink from "@/componentes/cardLink";
+import ContainerNet from "@/componentes/containerNet";
+import BlocoTexto from "@/componentes/blocoTexto";
 
-export default function TopoLinks(){
+export default function Links(){
     return(
         <div className="h-full">
             <div>
                 <div className="flex flex-col gap-3 sm:gap-5 justify-center items-center pt-12 text-center">
-                    <a href="/" className="w-24 h-24 sm:w-28 sm:h-28 xl:w-32 xl:h-32 bg-roxo2 rounded-full flex justify-center items-center p-2">
+                    <a href="/" className="w-24 h-24 sm:w-28 sm:h-28 xl:w-32 xl:h-32 bg-roxo2 rounded-full flex justify-center items-center p-2 shadow-inner shadow-roxo hover:shadow-sm transition-all duration-700">
                         <Image
                                 src="/logo.svg"
                                 alt="Logotipo da Loading"
